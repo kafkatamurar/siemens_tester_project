@@ -4,11 +4,12 @@ Siemens project for students
 
 ## 1. Palindrome
 
-todo
+Done
+Run example: 'python3 palindrome.py'
 
 ## 2. Code review
 
-todo
+Done
 
 ## 3. Piškovrky
 
@@ -16,8 +17,10 @@ todo
 
 ## 4. Cesar cipher
 
-todo
+Done
+Run example 'python3 cesar.py'
 
 ## 5. Code generator
 
-todo
+Done
+Run example: 'python3 codegen.py ../path/to/your/template

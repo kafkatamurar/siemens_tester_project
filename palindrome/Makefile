@@ -3,7 +3,7 @@
 all: build clean-dev
 
 build:
-	pyinstaller -F prog.py --name palindrome
+	pyinstaller -F palindrome.py --name palindrome
 	mv dist/palindrome palindrome
 
 clean-dev:
