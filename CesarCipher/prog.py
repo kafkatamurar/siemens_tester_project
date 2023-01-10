@@ -15,16 +15,18 @@ def cesarCipher(message, key, mode):
     return newMessage
 
 def help():
-    print("Welcome to the Cesar Cipher!")
-    print("This program will encrypt or decrypt a message using the Cesar Cipher.")
-    print("")
-    print("Message: The message you want to encrypt/decrypt.")
-    print("Key: The key you want to use to encrypt/decrypt the message.")
-    print("Mode: 1 for encrypt, -1 for decrypt.")
-    print("")
-    print("Example: 'Hello, Siemens!' with key 3 and mode 1 will return 'Khoor, Vlhphqv!'.")
-    print("")
-    print("Type '-exit' to exit the program.")
+    helpText = '''Welcome to the Cesar Cipher!
+This program will encrypt or decrypt a message using the Cesar Cipher.
+
+Message: The message you want to encrypt/decrypt.
+Key: The key you want to use to encrypt/decrypt the message.
+Mode: 1 for encrypt, -1 for decrypt.
+
+Example: 'Hello, Siemens!' with key 3 and mode 1 will return 'Khoor, Vlhphqv!'.
+
+Type '-exit' to exit the program.
+'''
+    print(helpText)
 
 def main():
     help()
