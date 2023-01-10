@@ -23,4 +23,4 @@ Run example 'python3 ..path/to/cesar.py'
 ## 5. Code generator
 
 Done  
-Run example: 'python3 ..path/to/codegen.py ../path/to/your/template
+Run example: 'python3 ..path/to/codegen.py ../path/to/your/template.json
