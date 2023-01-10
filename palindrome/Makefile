@@ -1,4 +1,4 @@
-.PHONY: all build clean
+.PHONY: all build clean clean-dev
 
 all: build clean-dev
 

@@ -1,9 +1,9 @@
-.PHONY: all build clean
+.PHONY: all build clean clean-dev
 
 all: build clean-dev
 
 build:
-	pyinstaller -F prog.py --name CesarCipher
+	pyinstaller -F cesar.py --name CesarCipher
 	mv dist/CesarCipher CesarCipher
 
 clean-dev:
