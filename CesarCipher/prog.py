@@ -22,7 +22,7 @@ def help():
     print("Key: The key you want to use to encrypt/decrypt the message.")
     print("Mode: 1 for encrypt, -1 for decrypt.")
     print("")
-    print("Example: 'Hello, Siemens' with key 3 and mode 1 will return 'Khoor, Vlhphqv!'.")
+    print("Example: 'Hello, Siemens!' with key 3 and mode 1 will return 'Khoor, Vlhphqv!'.")
     print("")
     print("Type '-exit' to exit the program.")
 
